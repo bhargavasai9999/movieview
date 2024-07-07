@@ -18,14 +18,14 @@ export const Navbar = () => {
     <div className='background'>
       <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand text-light" to="/home">MOVIE VIEW</Link>
+          <Link className="navbar-brand text-light" to="/popular">MOVIE VIEW</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto  mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active text-light" to="/home">Popular</Link>
+                <Link className="nav-link active text-light" to="/popular">Popular</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-light" to="/toprated">Top-Rated</Link>
