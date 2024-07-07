@@ -1,0 +1,103 @@
+.movies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+ .link-no-underline{
+  text-decoration: none;
+  color: inherit;
+ }
+
+  button {
+    display: inline-block;
+    margin: 20px 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #343a40; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #007bff; 
+  }
+  
+  button.active {
+    background-color: #007bff;
+    font-weight: bold;
+  }
+  
+  .movie-card {
+    border: 1px solid #495057; 
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #212529; 
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  .movie-card h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #ffffff; 
+  }
+  
+  .movie-card p {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #dee2e6; 
+  }
+  
+  .movie-card span {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #007bff;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

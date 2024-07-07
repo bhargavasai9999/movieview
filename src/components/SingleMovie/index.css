@@ -1,0 +1,104 @@
+.single-movie-details {
+    color: #dee2e6;
+    background-color: #343a40; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-details {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+  }
+  
+  .movie-info {
+    flex: 1; 
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-style: italic;
+    color: #adb5bd;
+    margin-bottom: 20px; 
+  }
+  
+  .overview-section {
+    margin-bottom: 20px; 
+  }
+  
+  .overview-text {
+    color: #adb5bd; 
+  }
+  
+  .movie-poster {
+    width: 300px; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-info h3 {
+    font-size: 18px;
+  }
+  
+  .genres-list,
+  .production-companies-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .genres-list li,
+  .production-companies-list li {
+    margin-bottom: 5px;
+  }
+  
+  .cast-details {
+    margin-top: 20px;
+  }
+  
+  .cast-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cast-item {
+    width: 200px;
+    border: 1px solid #495057;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #212529;
+  }
+  
+  .actor-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .cast-info {
+    margin-top: 10px;
+  }
+  
+  .actor-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .actor-character {
+    font-style: italic;
+    color: #adb5bd;
+  }
+  .detail-section h3 {
+    font-size: 18px;
+  }

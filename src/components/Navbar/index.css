@@ -1,0 +1,32 @@
+.background {
+    background-color: #343a40; 
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff; 
+  }
+  
+  .form-control {
+    background-color: #ffffff; 
+    color: #212529; 
+  }
+  .btn-outline-success {
+    color: #ffffff; 
+    border-color: #ffffff;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #ffffff; 
+    color: #343a40; 
+  }
+  
